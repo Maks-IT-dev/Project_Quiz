@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    font-family: "Bungee", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+}
+
+
+
+.quiz-quest,
+.start,
+.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    background-color: aquamarine;
+    background: url("https://img.freepik.com/free-photo/questioning-concept-with-question-mark_23-2150408209.jpg") 0 0/cover no-repeat;
+}
+
+.answers {
+    margin-bottom: 70px;
+
+}
+
+.quiz-quest h1 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    height: 20vh;
+    font-size: 40px;
+}
+
+.answer-btn {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin: 6px;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+.answer-btn:hover {
+    color: #3CA094;
+}
+
+.wrapper {
+    background-color: azure;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+.quiz-quest,
+.end {
+    display: none;
+}
+
+.start-btn {
+    width: 200px;
+    height: 50px;
+    background-color: azure;
+    color: black;
+    transition: all 0.4s;
+}
+
+.start-btn:hover {
+    background-color: black;
+    color: #3CA094;
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+.restart-btn {
+    width: 200px;
+    height: 50px;
+    background-color: azure;
+    color: black;
+    transition: all 0.1s;
+}
+
+.restart-btn:hover {
+    background-color: black;
+    color: #3CA094;
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+.input-name {
+    background-color: azure;
+}
+
+.timer {
+    margin-left: auto;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    border: 5px solid black;
+    border-radius: 40px;
+    width: 40px;
+    font-size: 20px;
+}
